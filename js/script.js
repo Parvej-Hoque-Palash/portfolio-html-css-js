@@ -14,3 +14,9 @@ window.onscroll = () =>{
     menu.classList.remove('bx-x');
     navlist.classList.remove('open');
 };
+document.getElementById('resume-button').addEventListener('click', function() {
+    window.location.href = './../pdf/resume.pdf';
+});
+document.getElementById('download-resume-btn').addEventListener('click', function() {
+    window.location.href = './../pdf/resume.pdf';
+});
